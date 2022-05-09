@@ -174,7 +174,6 @@ vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/libAF.so
 vendor/lib64/libFlickerDet.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
@@ -437,7 +436,6 @@ vendor/etc/camera/ellc_params.xml
 vendor/etc/camera/fusion_mecp.bin
 vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/intsense_config_optical_zoom_2sat.bin
-vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/miSATTRatio_params_2sat.json
 vendor/etc/camera/miSAT_params_2sat.json
 vendor/etc/camera/mibokeh_855_opencl.bin
@@ -489,7 +487,6 @@ vendor/lib64/camera/plugins/com.xiaomi.plugin.supernight.so
 # Camera (sensors)
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
-vendor/lib64/libmegface.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_faceproc.so
