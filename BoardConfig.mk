@@ -12,6 +12,16 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := vili
 
+# HIDL
+ODM_MANIFEST_SKUS := \
+    vili \
+    vilijp
+
+NFC_ESE_MANIFEST := $(DEVICE_PATH)/hidl/nfc_ese.xml
+
+ODM_MANIFEST_VILI_FILES := $(NFC_ESE_MANIFEST)
+ODM_MANIFEST_VILIJP_FILES := $(NFC_ESE_MANIFEST)
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/vili_QGKI.config
 
