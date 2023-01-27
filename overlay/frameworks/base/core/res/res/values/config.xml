@@ -326,4 +326,25 @@
         <item>915</item>  <!-- sensorLocationY -->
         <item>135</item>  <!-- sensorRadius -->
     </array>
+
+    <!-- Vili uses different gamma curves for different refresh rates. It's hard for panel
+         vendor to tune the curves to have exact same brightness for different refresh rate. So
+         flicker could be observed at switch time. The issue is worse at the gamma lower end.
+         In addition, human eyes are more sensitive to the flicker at darker environment.
+         To prevent flicker, we only support higher refresh rates if the display brightness is above
+         a threshold. And the darker environment could have higher threshold.
+         For example, no higher refresh rate if
+             display brightness <= disp0 && ambient brightness <= amb0
+             || display brightness <= disp1 && ambient brightness <= amb1 -->
+    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
+        <item>74</item> <!-- 77% UI brightness -->
+    </integer-array>
+    <!-- Vili exhibits a noticeable green tint at 62-ish or lower brightness, having to
+             round up to 63 since the integer value of the floating point representation isn't an
+             exact conversion.
+             To get the brightness in integer from the UI percentage, use
+             adb shell settings get system screen_brightness -->
+    <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
+        <item>63</item>
+    </integer-array>
 </resources>
