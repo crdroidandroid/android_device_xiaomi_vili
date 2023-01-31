@@ -9,3 +9,10 @@ prebuilt_etc {
     sub_dir: "init",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.xiaomi.goodixfp.rc",
+    src: "init.xiaomi.goodixfp.rc",
+    sub_dir: "init",
+    vendor: true,
+}

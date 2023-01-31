@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.xiaomi.camera.rc
+    init.xiaomi.camera.rc \
+    init.xiaomi.goodixfp.rc
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
