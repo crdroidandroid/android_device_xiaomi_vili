@@ -627,6 +627,19 @@ vendor/etc/mdss_dsi_k3s_42_02_0b_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_cmd_mode_dsc_dsi_panel.xml
 
+# Fingerprint
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+
+# Fingerprint dtool
+vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
+vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
+vendor/lib64/vendor.xiaomi.hardware.dtool@1.0.so
+
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
 vendor/firmware/a660_sqe.fw
