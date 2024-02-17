@@ -1,6 +1,32 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8350-common",
-    "target_path": "device/xiaomi/sm8350-common"
-  }
+    "repository":  "swiitch-OFF-Lab/device_xiaomi_vili",
+    "target_path": "device/xiaomi/vili",
+    "remote":      "github",
+    "revision":    "14.0"
+  },
+  {
+    "repository":  "swiitch-OFF-Lab/device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "remote":      "github",
+    "revision":    "14.0"
+  },
+  {
+    "repository":  "swiitch-OFF-Lab/vendor_xiaomi_vili",
+    "target_path": "vendor/xiaomi/vili",
+    "remote":      "github",
+    "revision":    "14.0"
+  },
+  {
+    "repository":  "swiitch-OFF-Lab/vendor_xiaomi_sm8350-common",
+    "target_path": "vendor_xiaomi_sm8350-common",
+    "remote":      "github"
+    "revision":    "14.0"
+  },
+  {
+    "repository":  "swiitch-OFF-Lab/los-kernel_xiaomi_sm8350 ",
+    "target_path": "kernel/xiaomi/sm8350",
+    "remote":      "github",
+    "revision":    "14.0"
+  },
 ]
