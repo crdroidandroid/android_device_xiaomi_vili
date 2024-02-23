@@ -29,4 +29,10 @@
     "remote":      "github",
     "revision":    "14.0"
   },
+  {
+    "repository":  "swiitchOFF Lab/proprietary_vendor_xiaomi_camera ",
+    "target_path": "vendor/xiaomi/camera",
+    "remote":      "gitlab",
+    "revision":    "udc"
+  },
 ]
