@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from miui_VILIEEA_V14.0.14.0.TKDEUXM
+# All unpinned blobs are extracted from miui_VILI_eea-user 13 TKQ1.220829.002 V14.0.16.0.TKDEUXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
