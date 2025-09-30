@@ -45,6 +45,9 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libprocessgroup_shim.so'),
     'vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so': blob_fixup()
         .sig_replace('21 00 80 52 7c 00 00 94', '21 00 80 52 1F 20 03 D5'),
+    'vendor/lib/hw/audio.primary.vili.so': blob_fixup()
+        .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
+        .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
